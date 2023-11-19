@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto Final</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="https://www.shutterstock.com/image-photo/judo-basketball-football-tennis-cycling-600nw-2091321703.jpg" alt="Logo de Articulos Deportivos">
+        <h1>Articulos Deportivos</h1>
+    </header>
+
+    <nav>
+        <a href="#" onclick="mostrarVista('inicio')">Inicio</a>
+        <a href="#" onclick="mostrarVista('vista1')">Acerca de</a>
+        <a href="#" onclick="mostrarVista('vista2')">Formulario</a>
+        <a href="#" onclick="mostrarVista('vista3')">Articulos</a>
+    </nav>
+
+    <section id="inicio" class="active">
+        <h2>Inicio</h2>
+        <img src="https://4.bp.blogspot.com/-JTvEURAubHk/VMaY_eZOWFI/AAAAAAAAEP0/lK6oIlooxVg/s1600/indice_docs_logo.png" alt="Imagen de Inicio">
+        <p>En esta página web encontrarás una variedad de artículos deportivos que te ayudarán a mejorar tus entrenamientos o a obtener ventajas en cualquier deporte que practiques. En nuestro sitio, tendrás acceso a los siguientes apartados:</p>
+
+        <ul>
+            <li><strong>Acerca de:</strong> Información detallada sobre nuestra página y los productos que ofrecemos.</li>
+            <li><strong>Formulario:</strong> Puedes contactarnos y dejarnos saber cualquier duda o pregunta que tengas.</li>
+            <li><strong>Artículos:</strong> Explora nuestra colección de productos deportivos.</li>
+        </ul>
+
+        <p>¡Disfruta tu estadía en nuestra página y encuentra todo lo que necesitas para mejorar tu rendimiento deportivo!</p>
+    </section>
+
+    <section id="vista1">
+        <h2>Acerca de</h2>
+        <div style="text-align: center;">
+            <img src="https://www.infisport.com/media/amasty/blog/SprintDeportesEquipo1_2.jpg" alt="Imagen de Vista 1" style="max-width: 100%; height: auto;">
+        </div>
+    
+        <p>En esta página te hablaremos sobre algunos artículos que tenemos aquí, como por ejemplo:</p>
+    
+        <ul>
+            <li>Guantes de boxeo</li>
+            <li>Raquetas para tenis</li>
+            <li>Guantes para gimnasio</li>
+            <li>Balones de fútbol soccer</li>
+            <li>Balones de fútbol americano</li>
+            <li>Ropa deportiva</li>
+        </ul>
+    </section>
+    
+    <section id="vista2">
+        <h2>Formulario</h2>
+    
+        <!-- Formulario de contacto -->
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    
+        <img src="https://png.pngtree.com/element_our/20200609/ourmid/pngtree-form-selection-check-image_2229994.jpg" alt="Imagen de Vista 3">
+        <p>Nos apoyarias mucho al contestar este formulario , GRACIAS!!!</p>
+    </section>
+    
+    <!-- Agrega otra imagen e información en la sección Vista 3 -->
+    <section id="vista3" class="style2">
+        <h2>Sección 3</h2>
+        <img class="style2" src="https://ss201.liverpool.com.mx/xl/1112818851.jpg" alt="Imagen de guantes de boxeo">
+        <img class="style2" src="https://www.tennisboutiquemx.com/cdn/shop/products/raqueta-babolat-pure-drive-junior-25-939096.jpg?v=1624297203" alt="Segunda imagen">
+        <img class="style2" src="https://martimx.vtexassets.com/arquivos/ids/926528-800-800?v=637925648009200000&width=800&height=800&aspect=true" alt="Imagen de zapatillas de running" alt="Tercera imagen">
+        <p>Los guantes de boxeo son esenciales para la práctica de este deporte. Proporcionan protección a las manos y a los oponentes durante los combates.</p>
+        <p>Una raqueta de tenis es una herramienta crucial para cualquier jugador de tenis. Elegir la raqueta adecuada puede marcar la diferencia en el rendimiento.</p>
+        <p>Los tenis de correr son un elemento esencial para los corredores. Proporcionan comodidad y soporte durante el ejercicio, ayudando a prevenir lesiones.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
